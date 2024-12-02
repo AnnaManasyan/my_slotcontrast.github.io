@@ -183,3 +183,19 @@ h3.title.is-4 {
   margin: 0 auto;
 }
 
+/* Apply styles only to videos inside .video-section */
+.video-section .video-wrapper {
+  display: flex;
+  flex-wrap: nowrap; /* Keeps videos on one line */
+  justify-content: space-between;
+  gap: 1px; /* Reduced the space between videos */
+  overflow-x: auto; /* Enables horizontal scrolling if the content exceeds the width */
+}
+
+.video-section .video-wrapper video {
+  width: 250px; /* Increased the size of the videos */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
