@@ -133,68 +133,13 @@ body {
   font-size: smaller;
 }
 
-
-
-/* Center the carousel content */
-.carousel .columns {
-  justify-content: center;
-  align-items: flex-start; /* Ensures alignment starts at the top */
-  gap: 20px; /* Adds spacing between the columns */
-}
-
-/* Adjust the video container */
+/* Custom CSS to adjust spacing */
 .video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -10px; /* Slightly move videos up */
-  padding: 10px; /* Adds some padding around videos */
-}
-
-/* Video styling for consistent display */
-video {
-  max-width: 100%; /* Make sure videos are responsive */
-  height: auto; /* Maintain aspect ratio */
-  border: 2px solid #ccc; /* Add a subtle border */
-  border-radius: 8px; /* Rounded corners for better aesthetics */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-/* Center section headings */
-h2.title.is-3,
-h3.title.is-4 {
   text-align: center;
-  margin-bottom: 20px; /* Add spacing below headings */
 }
 
-/* Reduce unnecessary margin/padding around carousel items */
-.carousel-item {
-  margin-bottom: 30px;
-}
-
-/* Add spacing for the entire section */
-.hero-body {
-  padding: 20px 10px;
-}
-
-/* Align the container */
-.container {
-  max-width: 960px; /* Adjust to fit most screen sizes */
-  margin: 0 auto;
-}
-
-/* Apply styles only to videos inside .video-section */
-.video-section .video-wrapper {
-  display: flex;
-  flex-wrap: nowrap; /* Keeps videos on one line */
-  justify-content: space-between;
-  gap: 1px; /* Reduced the space between videos */
-  overflow-x: auto; /* Enables horizontal scrolling if the content exceeds the width */
-}
-
-.video-section .video-wrapper video {
-  width: 250px; /* Increased the size of the videos */
-  height: auto; /* Maintain aspect ratio */
+.video-container h3.subtitle {
+  margin-top: 5px;  /* Reduce space between video and subtitle */
 }
 
 
