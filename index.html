@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Temporally Consistent Object-Centric Learning by Contrasting Slots">
-    <meta name="twitter:description" content="Object-centric Representations from Real-world Videos">
+    <meta name="twitter:description" content="Temporally Consistent Object-Centric Learning by Contrasting Slots">
     <meta name="keywords" content="object-centric representations, scene decomposition, temporal consistency">
     <title>Temporally Consistent Object-Centric Learning by Contrasting Slots</title>
+    
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   
@@ -34,18 +35,18 @@
   
     <!-- Local Polyfill (if needed) -->
     <!-- <script src="polyfill.min.js"></script> -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
   </head>
+  
   
 <body>
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column is-three-quarters is-offset-2 has-text-centered">
-            <h1 class="title is-1 publication-title">Temporally Consistent Object-Centric Learning by Contrasting Slots</h1>
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-three-quarters is-offset-0 has-text-centered">
+            <h1 class="title is-1 publication-title">
+              Temporally Consistent Object-Centric Learning <br> by Contrasting Slots
+            </h1>
             <div class="is-size-5 publication-authors">
               <!-- Removed authors, changed to Anonymus -->
               <span class="author-block">
@@ -57,13 +58,13 @@
       </div>
     </div>
   </section>
-
-<!-- Teaser video-->
+  
+  <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <source src="static/videos/SS/teaser.mp4"
+        <source src="static/videos/teaser.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -73,11 +74,13 @@
   </div>
 </section>
 <!-- End teaser video -->
+
+
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-three-quarters is-offset-2">
+      <div class="column is-three-quarters is-offset-0">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -93,8 +96,9 @@
     </div>
   </div>
 </section>
-
 <!-- End paper abstract -->
+
+
 <!-- Image carousel with descriptions -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -114,7 +118,9 @@
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
+<!-- End Image carousel with descriptions -->
+
+<!--Quantitative Comparison -->
 <section class="section">
   <div class="container">
     <h2 class="title is-3 has-text-centered">Quantitative Comparison</h2>
@@ -130,7 +136,7 @@
     </div>
   </div>
 </section>
-
+<!-- End Quantitative Comparison -->
 
 <!-- Video carousel -->
 <section class="hero is-small">
@@ -139,13 +145,13 @@
       <!-- Main Title centered -->
       <h2 class="title is-3">Qualitative Comparison</h2>
       
-      <!-- Subtitles for SlotContrast and VideoSaurv2 -->
-      <div class="columns is-centered">
+      <!-- Subtitles for SlotContrast and VideoSAURv2 -->
+      <div class="columns is-centered" style="margin-bottom: -20px;"> <!-- Reduced margin -->
         <div class="column is-one-quarter">
-          <h3 class="title is-4">SlotContrast</h3>
+          <h3 class="title is-4" style="margin-bottom: 0;">SlotContrast</h3> <!-- Removed margin-bottom -->
         </div>
         <div class="column is-one-quarter">
-          <h3 class="title is-4">VideoSAURv2</h3>
+          <h3 class="title is-4" style="margin-bottom: 0;">VideoSAURv2</h3> <!-- Removed margin-bottom -->
         </div>
       </div>
 
@@ -154,29 +160,31 @@
         <!-- Item 1: Single video -->
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="150px" width="auto">
-            <source src="static/videos/combined/128.mp4" type="video/mp4">
+            <source src="static/videos/comparisons/128.mp4" type="video/mp4">
           </video>
         </div>
 
         <!-- Item 2: Single video -->
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="150px" width="auto">
-            <source src="static/videos/combined/160.mp4" type="video/mp4">
+            <source src="static/videos/comparisons/160.mp4" type="video/mp4">
           </video>
         </div>
 
         <!-- Item 3: Single video -->
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="150px" width="auto">
-            <source src="static/videos/combined/151.mp4" type="video/mp4">
+            <source src="static/videos/comparisons/151.mp4" type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!--End Video carousel -->
 
 
+<!-- Example Dynamics -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -197,7 +205,7 @@
       <div class="columns is-centered">
         <!-- Video Column with fixed width of 800px, slightly moved to the left -->
         <div class="column is-half">
-          <div class="video-container" style="width: 800px; margin-left: -20px;">
+          <div class="video-container" style="width: 750px; margin-left: -40px;">
             <video autoplay controls muted loop style="width: 100%; height: auto;">
               <source src="static/videos/dynamics/190_combined.mp4" type="video/mp4">
             </video>
@@ -207,15 +215,7 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
+<!--End Example Dynamics -->
 
 </body>
 </html>
